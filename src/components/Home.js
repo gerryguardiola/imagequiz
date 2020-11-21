@@ -33,9 +33,7 @@ class Home extends React.Component{
                 :<div><Link to='/login'>Login to Continue</Link></div>}
             </div>
 
-            <div>
-            <Search/>
-            </div>
+            
         </div>
         )
     }
