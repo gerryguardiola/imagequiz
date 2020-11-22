@@ -12,14 +12,15 @@ class Quiz extends React.Component{
         this.state = {current: 0}
     }
     
+    setCurr = (val) =>{
+        this.setState({current: val})
+     }
 
     render(){
         return (
         <div>
-        <Link to='/quiz'><img src={require('./images/cherryblossom.png')} alt="cherryblossom" /></Link>
-        <Link to='/quiz'><img src={require('./images/daffodil.png')} alt="daffodil" /></Link>
-        <Link to='/quiz'><img src={require('./images/daisy.jpg')} alt="daisy" /></Link>
-        <Link to='/quiz'><img src={require('./images/lily.jpg')} alt="lily" /></Link>
+        <Link to='/take' onClick={() => quizObj.change(0)}><img src={require('./images/cherryblossom.png')} alt="cherryblossom" /></Link>
+        <Link to='/daff' onClick={() => quizObj.change(1)}><img src={require('./images/daffodil.png')} alt="daffodil" /></Link>
         </div>
         )
     }
