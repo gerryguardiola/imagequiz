@@ -1,24 +1,28 @@
 {
   "files": {
-    "main.css": "/imagequiz/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/imagequiz/static/js/main.5cb197ca.chunk.js",
-    "main.js.map": "/imagequiz/static/js/main.5cb197ca.chunk.js.map",
-    "runtime-main.js": "/imagequiz/static/js/runtime-main.cf66d474.js",
-    "runtime-main.js.map": "/imagequiz/static/js/runtime-main.cf66d474.js.map",
-    "static/js/2.2484e1b7.chunk.js": "/imagequiz/static/js/2.2484e1b7.chunk.js",
-    "static/js/2.2484e1b7.chunk.js.map": "/imagequiz/static/js/2.2484e1b7.chunk.js.map",
-    "static/js/3.1fe596cb.chunk.js": "/imagequiz/static/js/3.1fe596cb.chunk.js",
-    "static/js/3.1fe596cb.chunk.js.map": "/imagequiz/static/js/3.1fe596cb.chunk.js.map",
+    "main.css": "/imagequiz/static/css/main.8f5668c2.chunk.css",
+    "main.js": "/imagequiz/static/js/main.51e45f77.chunk.js",
+    "main.js.map": "/imagequiz/static/js/main.51e45f77.chunk.js.map",
+    "runtime-main.js": "/imagequiz/static/js/runtime-main.51374231.js",
+    "runtime-main.js.map": "/imagequiz/static/js/runtime-main.51374231.js.map",
+    "static/js/2.1fa92201.chunk.js": "/imagequiz/static/js/2.1fa92201.chunk.js",
+    "static/js/2.1fa92201.chunk.js.map": "/imagequiz/static/js/2.1fa92201.chunk.js.map",
+    "static/js/3.c56279ff.chunk.js": "/imagequiz/static/js/3.c56279ff.chunk.js",
+    "static/js/3.c56279ff.chunk.js.map": "/imagequiz/static/js/3.c56279ff.chunk.js.map",
     "index.html": "/imagequiz/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/imagequiz/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.2484e1b7.chunk.js.LICENSE.txt": "/imagequiz/static/js/2.2484e1b7.chunk.js.LICENSE.txt",
+    "static/css/main.8f5668c2.chunk.css.map": "/imagequiz/static/css/main.8f5668c2.chunk.css.map",
+    "static/js/2.1fa92201.chunk.js.LICENSE.txt": "/imagequiz/static/js/2.1fa92201.chunk.js.LICENSE.txt",
     "static/media/cherryblossom.png": "/imagequiz/static/media/cherryblossom.12b6a49b.png",
-    "static/media/daffodil.png": "/imagequiz/static/media/daffodil.30bb3c1a.png"
+    "static/media/daffodil.png": "/imagequiz/static/media/daffodil.30bb3c1a.png",
+    "static/media/rose.1b73a47a.png": "/imagequiz/static/media/rose.1b73a47a.png",
+    "static/media/sunflower.d83eb115.png": "/imagequiz/static/media/sunflower.d83eb115.png",
+    "static/media/tulip.2af32d51.png": "/imagequiz/static/media/tulip.2af32d51.png",
+    "static/media/waterlily.c4129a63.png": "/imagequiz/static/media/waterlily.c4129a63.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.cf66d474.js",
-    "static/js/2.2484e1b7.chunk.js",
-    "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.5cb197ca.chunk.js"
+    "static/js/runtime-main.51374231.js",
+    "static/js/2.1fa92201.chunk.js",
+    "static/css/main.8f5668c2.chunk.css",
+    "static/js/main.51e45f77.chunk.js"
   ]
 }
