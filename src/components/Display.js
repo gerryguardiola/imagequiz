@@ -2,6 +2,14 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import quizObj from './quizObjects';
 import Quiz from './Quiz';
+import cherryblossom from './images/cherryblossom.png'
+import daffodil from './images/daffodil.png'
+import daisy from './images/daisy.jpg'
+import lily from './images/lily.jpg'
+import rose from './images/rose.png'
+import sunflower from './images/sunflower.png'
+import tulip from './images/tulip.png'
+import waterlily from './images/waterlily.png'
 
 class Display extends React.Component{
 constructor(props){
@@ -22,23 +30,27 @@ getString(temp){
 }
 
 render(){
-    var string = this.getString("");
     var questions= quizObj.getFlowerDisplay();
     var names = quizObj.getNames();
     return (
     <div>
-    <img src={require("./images/cherryblossom.png")} alt={names[0][0]} /> {names[0][0]}
-    <img src={"./images/"+questions[0][1]} alt={names[0][1]} /> {names[0][1]}
-    <img src={"./images/"+questions[0][2]} alt={names[0][2]} /> {names[0][2]}
-    <img src={"./images/"+questions[0][3]} alt={names[0][3]} /> {names[0][3]}
-    <img src={"./images/"+questions[0][4]} alt={names[0][4]} /> {names[0][4]}
-    <img src={"./images/"+questions[0][5]} alt={names[0][5]} /> {names[0][5]}
-    <img src={"./images/"+questions[0][6]} alt={names[0][6]} /> {names[0][6]}
-    <img src={"./images/"+questions[0][7]} alt={names[0][7]} /> {names[0][7]}
-    <img src={"./images/"+questions[0][8]} alt={names[0][8]} /> {names[0][8]} <br/>
-
-    <Link to='/'>Return Home</Link><br/>
-    <Link to='/quiz'>Return to Quizzes</Link><br/>
+    <div class = "display">
+    <table>
+    <tr>
+    <td><img src={cherryblossom} alt={names[0][0]} /> <p>{names[0][0]}</p></td>
+    <td><img src={daffodil} alt={names[0][1]} /><p>{names[0][1]}</p></td>
+    <td><img src={daisy} alt={names[0][2]} /> <p>{names[0][2]}</p></td>
+    <td><img src={lily} alt={names[0][3]} /> <p>{names[0][3]}</p>
+    </td></tr>
+    <tr><td>
+    <img src={rose} alt={names[0][4]} /> <p>{names[0][4]}</p></td>
+    <td><img src={sunflower} alt={names[0][5]} /> <p>{names[0][5]}</p></td>
+    <td><img src={tulip} alt={names[0][6]} /> <p>{names[0][6]}</p></td>
+    <td><img src={waterlily} alt={names[0][7]} /> <p>{names[0][7]}</p><br/>
+    </td></tr></table>
+    </div>
+        <Link to='/'>Return Home</Link><br/>
+        <Link to='/quiz'>Return to Quizzes</Link><br/>
     </div>
     )
 }

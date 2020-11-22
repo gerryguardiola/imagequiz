@@ -42,9 +42,7 @@ class TakeQuiz extends React.Component{
         <div>
         {val !== 6 ? 
         <div>
-        {val}<br/>
-        {image}<br/>
-        <img src={image} alt={questions[0][this.state.i]} /> Which word matches the image?<br/>
+        <img src={image} alt={questions[0][this.state.i]} /><br/> Which word matches the image?<br/>
         <button type="submit" onClick ={() => this.grade(questions[0][val], answers[0])}>{answers[0]}</button>
         <button type="submit" onClick ={() => this.grade(questions[0][val], answers[1])}>{answers[1]}</button>
         <button type="submit" onClick ={() => this.grade(questions[0][val], answers[2])}>{answers[2]}</button>
