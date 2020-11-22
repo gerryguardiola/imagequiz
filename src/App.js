@@ -9,6 +9,7 @@ import Login from './components/Login';
 import Quiz from './components/Quiz';
 import TakeQuiz from './components/TakeQuiz';
 import DaffQuiz from './components/DaffQuiz';
+import Display from './components/Display';
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
           </Route>
           <Route path='/daff' >
             <DaffQuiz />
+          </Route>
+          <Route path='/display' >
+            <Display />
           </Route>
         </Switch>
       </BrowserRouter>

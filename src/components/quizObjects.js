@@ -19,8 +19,22 @@ var daffodilOptions = [
     ["mouse", "cat","cherry", "lily"],
     ["daffodil", "rat", "cat", "cherry"]
 ]
+var flowerDisplay = [
+    ["cherryblossom.png","daffodil.png","daisy.jpg","lily.jpg",
+    "rose.png","sunflower.png","tulip.png","waterlil.png"]
+]
+var names = [
+    ["cherryblossom","daffodil","daisy","lily",
+    "rose","sunflower","tulip","waterlily"]
+]
 
 const quizObj = {
+    getFlowerDisplay:() =>{
+        return flowerDisplay;
+    },
+    getNames:() =>{
+        return names;
+    },
     change:(value) => {
         quiz[2] = value;
     },

@@ -49,7 +49,9 @@ class DaffQuiz extends React.Component{
         <button type="submit" onClick ={() => this.grade(questions[0][val], answers[1])}>{answers[1]}</button>
         <button type="submit" onClick ={() => this.grade(questions[0][val], answers[2])}>{answers[2]}</button>
         <button type="submit" onClick ={() => this.grade(questions[0][val], answers[3])}>{answers[3]}</button>
-        </div>: <div>You recieved a score of {this.state.j}/6</div>}
+        </div>: <div>You recieved a score of {this.state.j}/6 <br/>
+        <Link to='/'>Return Home</Link><br/>
+        <Link to='/quiz'>Return to Quizzes</Link><br/></div>}
         </div>
         )
     }

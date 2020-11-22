@@ -29,7 +29,7 @@ class Home extends React.Component{
             <div>
                 {username !== "" ? 
                 <div>
-                <Link to='/quiz'>Take Image Quiz</Link> { username }
+                <Link to='/quiz'>Take Image Quiz</Link> { username } <br/><Link to='/display'>Display Practicum 5</Link>
                 </div>
                 :<div><Link to='/login'>Login to Continue</Link></div>}
             </div>
