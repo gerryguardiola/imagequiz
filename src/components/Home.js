@@ -27,8 +27,9 @@ class Home extends React.Component{
         return (
         <div>
             <div>
-                {username !== ""? <div>
-                <Link to='/add'>Add Location</Link> { username }
+                {username !== "" ? 
+                <div>
+                <Link to='/quiz'>Take Image Quiz</Link> { username }
                 </div>
                 :<div><Link to='/login'>Login to Continue</Link></div>}
             </div>
