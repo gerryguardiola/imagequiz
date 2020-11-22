@@ -4,8 +4,7 @@ import Home from './Home';
 import quizObj from './quizObjects';
 import cherryblossom from './images/cherryblossom.png'
 import daffodil from './images/daffodil.png'
-import daisy from './images/daisy.jpg'
-import lily from './images/lily.jpg'
+
 class Quiz extends React.Component{
     constructor(props){
         super(props)
@@ -19,8 +18,13 @@ class Quiz extends React.Component{
     render(){
         return (
         <div>
-        <Link to='/take' onClick={() => quizObj.change(0)}><img src={require('./images/cherryblossom.png')} alt="cherryblossom" /></Link>
-        <Link to='/daff' onClick={() => quizObj.change(1)}><img src={require('./images/daffodil.png')} alt="daffodil" /></Link>
+        <table>
+        <tr><td>
+        <Link to='/take' onClick={() => quizObj.change(0)}><img src={cherryblossom} alt="cherryblossom" /><p>Quiz 1</p></Link>
+        </td><td>
+        <Link to='/daff' onClick={() => quizObj.change(1)}><img src={daffodil} alt="daffodil" /><p>Quiz 2</p></Link>
+        </td></tr></table>
+        <Link to='/'> Return Home </Link><br/>
         </div>
         )
     }

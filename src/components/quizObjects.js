@@ -1,3 +1,15 @@
+import cherry from './images/cherry.jpg'
+import daffodil from './images/daffodil.png'
+import lily from './images/lily.jpg'
+import cat from './images/cat.jpg'
+import mouse from './images/mouse.png'
+import bike from './images/bike.jpg'
+import cherryblossom from './images/cherryblossom.png'
+import rose from './images/rose.png'
+import parrot from './images/parrot.jpg'
+import bat from './images/bat.jpg'
+import rat from './images/rat.jpg'
+
 var quiz = [
     ["cherryblossom.png"],
     ["daffodil.png"],
@@ -6,18 +18,26 @@ var quiz = [
 ]
 
 var cherryQuestions = [
- ["bat", "parrot","rose", "cherryblossom", "rat", "daffodil"]
+ [bat, parrot,rose, cherryblossom, rat, daffodil]
 ]
 var cherryOptions = [
+    [rose, parrot,bat, cherryblossom],
+    [bat, cherryblossom, rat, daffodil]
+]
+var cherryNames = [
     ["rose", "parrot","bat", "cherryblossom"],
     ["bat", "cherryblossom", "rat", "daffodil"]
 ]
 var daffodilQuestions = [
- ["cherry", "mouse","cat", "lily", "daffodil", "cherry"]
+ [cherry, mouse, cat, lily, daffodil, bike]
 ]
 var daffodilOptions = [
-    ["mouse", "cat","cherry", "lily"],
-    ["daffodil", "rat", "cat", "cherry"]
+    [mouse, cat,cherry, lily],
+    [daffodil, rat, cat, bike]
+]
+var daffodilNames = [
+    ["mouse", "cat", "cherry", "lily"],
+    ["daffodil", "rat", "cat", "bike"]
 ]
 var flowerDisplay = [
     ["cherryblossom.png","daffodil.png","daisy.jpg","lily.jpg",
@@ -73,6 +93,18 @@ const quizObj = {
             return daffodilOptions[0];
         }
         return daffodilOptions[1]
+    },
+    getDaffodilNames:(val) => {
+        if (val < 4){
+            return daffodilNames[0];
+        }
+        return daffodilNames[1]
+    },
+    getCherryNames:(val) => {
+        if (val < 4){
+            return cherryNames[0];
+        }
+        return cherryNames[1]
     }
 
 }
